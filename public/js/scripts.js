@@ -89,7 +89,8 @@ $(function() {
     var email = $("#email").val();
     var message = $("#message").val();
     var verified = grecaptcha.getResponse();
-    var grecaptchaLabel = "Eres un robot ? Te doy una segunda oportunidad:"
+    var grecaptchaLabel = "Eres un robot ? Te doy otra oportunidad:";
+    var grecaptchaLabelNormal = "Confirma que no eres un robot:";
     if (name == '') {
       $("#name").css('border-color','rgba(255, 0, 0, 0.7)');
     }
@@ -113,6 +114,11 @@ $(function() {
           $('#contactform').each(function(){
             this.reset();
           });
+          $("#name").css('border-color','rgba(0, 0, 0, 0)');
+          $("#email").css('border-color','rgba(0, 0, 0, 0)');
+          $("#message").css('border-color','rgba(0, 0, 0, 0)');
+          $("#grecaptcha-label").html(grecaptchaLabelNormal);
+          $("#grecaptcha-label").css("color","black");
           grecaptcha.reset();
         },
         error:function(data){
