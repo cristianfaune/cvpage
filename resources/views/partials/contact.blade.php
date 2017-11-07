@@ -29,6 +29,7 @@
           {{Form::textarea('message',null, array(
           'name'=>'message', 'id'=>'message', 'placeholder'=>'Mensaje'))}}
         </div>
+        <p id="grecaptcha-label">Confirma que no eres un robot:</p>
         <div class="g-recaptcha" data-sitekey="6Lc6ozYUAAAAAG2odHWXmJefY1eeVVwvm2didNAw"></div>
         {{Form::submit('Enviar', array('class'=>'submit-style','id'=>'submit',
         'name'=>'submit'))}}

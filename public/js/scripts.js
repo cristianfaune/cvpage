@@ -89,6 +89,7 @@ $(function() {
     var email = $("#email").val();
     var message = $("#message").val();
     var verified = grecaptcha.getResponse();
+    var grecaptchaLabel = "Eres un robot ? Te doy una segunda oportunidad:"
     if (name == '') {
       $("#name").css('border-color','rgba(255, 0, 0, 0.7)');
     }
@@ -97,6 +98,10 @@ $(function() {
     }
     if (message == '') {
       $("#message").css('border-color','rgba(255, 0, 0, 0.7)');
+    }
+    if (verified.length === 0) {
+      $("#grecaptcha-label").html(grecaptchaLabel);
+      $("#grecaptcha-label").css("color","red");
     }
     else{
       $.ajax({
