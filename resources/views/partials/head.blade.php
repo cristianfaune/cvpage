@@ -4,6 +4,7 @@
 <meta name="author" content="Cristian Faune">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="google-site-verification" content="REjSnVWIyRDUfsu5hKjmfj5Uul7S_PsAHYwPzET_0YM" />
 <title>Cristian Faune | Desarrollo Web y Contenido Audiovisual</title>
 <!-- Favicon -->
 <link rel="shortcut icon" href="images/favicon.png">
