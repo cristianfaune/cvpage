@@ -70,7 +70,7 @@
           <!-- Skill 1 -->
           <div class="skill-bar">
             <input type="text" value="0" data-number="100" class="dial">
-            <h4>Programación</h4>
+            <h4>Desarrollo Web</h4>
           </div>
           <!-- Skill 2 -->
           <div class="skill-bar">
