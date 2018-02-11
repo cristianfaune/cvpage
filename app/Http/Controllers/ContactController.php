@@ -16,7 +16,7 @@ class ContactController extends Controller
         'message' => 'required'
       ));
 
-        $myEmail = 'cristianfaune.t@gmail.com';
+        $myEmail = 'hola@cristianfaune.cl';
         $email = $request->email;
         $bodyMessage = $request->message;
         $name = $request->name;

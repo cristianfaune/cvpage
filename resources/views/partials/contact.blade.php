@@ -9,7 +9,7 @@
         </li>
         <li>
           <i class="fa fa-envelope"></i>
-          <span>cristianfaune.t@gmail.com</span>
+          <span>hola@cristianfaune.cl</span>
         </li>
         <li>
           <i class="fa fa-phone"></i>
@@ -30,7 +30,7 @@
           'name'=>'message', 'id'=>'message', 'placeholder'=>'Mensaje'))}}
         </div>
         <p id="grecaptcha-label">Confirma que no eres un robot:</p>
-        <div class="g-recaptcha" data-sitekey="6LeRoTYUAAAAAGHPE5DTsNEzJMh3RcqyAxdhXxbB"></div>
+        <div class="g-recaptcha" data-sitekey="6Lc6ozYUAAAAAG2odHWXmJefY1eeVVwvm2didNAw"></div>
         {{Form::submit('Enviar', array('class'=>'submit-style','id'=>'submit',
         'name'=>'submit'))}}
         <div class="submit-result">
