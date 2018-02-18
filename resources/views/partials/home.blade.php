@@ -3,7 +3,7 @@
     <div class="row">
       <div class="home-box col-xs-12">
         <div>
-          <img src="images/img-profile-240.jpg" alt="">
+          <img src="images/img-profile-240.png" alt="">
           <h1>Cristian Faune</h1>
           <p>Desarrollador de Software / Realizador Audiovisual</p>
         </div>
